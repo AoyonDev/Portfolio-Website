@@ -1,0 +1,95 @@
+/* ===== COMMON CSS START ===== */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ a{
+     text-decoration: none !important;
+     display: inline-block !important;
+ }
+ ul,ol,li{
+     list-style-type: none;
+ }
+ body{
+     overflow-x: hidden !important;
+     background: #1A1A1A !important;
+ }
+ html,body{
+     scroll-behavior: smooth !important;
+ }
+ /* ===== COMMON CSS   END ===== */
+
+ 
+/* cursor gps finder  */
+@keyframes rotate {
+  from {
+    rotate: 0deg;
+  }
+  
+  50% {
+    scale: 1;
+  }
+  
+  to {
+    rotate: 360deg;
+  }
+}
+.blob-wrapper{
+  position: relative;
+}
+#blob {
+  height: 6vmax;
+  /* aspect-ratio: 1; */
+  width: 6vmax;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  translate: -50% -50%;
+  border-radius: 50%;
+  background: linear-gradient(to right, #FF9142, #FF9142);
+  animation: rotate 20s infinite;
+  opacity: 1;
+  filter: blur(4vmax);
+  z-index: -99999 !important;
+}
+
+
+
+/* loader css */
+.loader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #000;
+  transition: opacity 0.75s, visibility 0.75s;
+}
+
+.loader--hidden {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.loader::after {
+  content: "";
+  width: 75px;
+  height: 75px;
+  border: 8px solid #dddddd;
+  border-top-color: #FF9142;
+  border-radius: 50%;
+  animation: loading 0.75s ease infinite;
+}
+@keyframes loading {
+  from {
+    transform: rotate(0turn);
+  }
+  to {
+    transform: rotate(1turn);
+  }
+}

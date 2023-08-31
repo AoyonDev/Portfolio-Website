@@ -1,0 +1,2228 @@
+/* EXTRA SMALL DEVICE RESPONSIVE */
+@media (min-width: 199.99px) and (max-width: 299.99px){
+    /* ==== Nav Bar Responsive ==== */
+
+    /* side bar  */
+
+    .bar-icon{
+        margin-top: 10px !important;
+    }
+    .bar-icon i{
+        font-size: 16px !important;
+    }
+    .sidebar-items a{
+        font-size: 14px !important;
+    }
+
+    /* nav bar  */
+    .navbar-brand{
+        margin-left: 8px !important;
+    }
+    .logo{
+        width: 70px !important;
+        object-fit: cover;
+    }
+    .navbar {
+        margin-top: 20px !important;
+    }
+
+    /* ==== Nav Bar Responsive ==== */
+
+
+    /* ==== BANNER Responsive ==== */
+
+    #banner-part {
+        padding: 150px 0px !important;
+    }
+    .banner-text h1 {
+        font-size: 30px !important;
+    }
+    .banner-btn {
+        margin-top: 80px !important;
+    }
+    .banner-btn a {
+        width: 140px !important;
+        font-size: 12px !important;
+    }
+    .banner-btn i {
+        margin-left: 15px !important;
+        font-size: 12px !important;
+    }
+    /* ==== BANNER Responsive ==== */
+
+
+    /* ==== ABOUT Responsive ==== */
+
+    #about-part{
+        margin: 100px 0px !important;
+    }
+    .about-left-text h3 {
+        font-size: 28px !important;
+        text-align: center !important;
+    }
+    .about-left-text p {
+        text-align: center !important;
+        word-spacing: -1px !important;
+        font-size: 12px !important;
+        line-height: 18px !important;
+    }
+    .about-left-btn {
+        text-align: center !important;
+        margin-top: 40px !important;
+        margin-bottom: 40px !important;
+    }
+    .about-left-btn a {
+        width: 160px !important;
+        padding: 5px !important;
+        font-size: 12px !important;
+    }
+    .about-left-btn i {
+        margin-left: 10px !important;
+        font-size: 12px !important;
+    }
+
+    .about-right{
+        display: none !important;
+    }
+
+    /* ==== ABOUT Responsive ==== */
+
+
+    /* ==== PROJECT PART Responsive ==== */
+
+    .project-item-row{
+        padding: 0px 10px !important;
+        display: flex !important;
+        justify-content: space-between !important;
+    }
+    .project-card{
+        padding-top: 50px !important;
+        padding-bottom: 50px !important;
+        border-bottom: 1px solid #FF9142;
+    }
+    .project-title h3 {
+        font-size: 32px !important;
+    }
+    .project-btn {
+        margin-top: 35px !important;
+    }
+    .project-btn a {
+        width: 160px !important;
+        padding: 5px !important;
+        font-size: 12px !important;
+    }
+    .project-btn i {
+        margin-left: 10px !important;
+        font-size: 12px !important;
+    }
+    .project-img {
+        height: 140px !important;
+        width: 180px !important;
+    }
+    .project-img img {
+        height: 140px !important;
+        width: 180px !important;
+        object-fit: cover !important;
+    }
+    .product-img-title {
+        margin-top: 10px !important;
+        margin-bottom: 15px !important;
+    }
+    .product-img-title h4 {
+        font-size: 16px !important;
+        line-height: 16px !important;
+    }
+    .product-img-title-icon {
+        display: none !important;
+    }
+    .client-info{
+        margin-bottom: 0px !important;
+    }
+    .client-info p {
+        font-size: 14px !important;
+    }
+    .client-name p {
+        margin-left: 15px !important;
+        font-size: 14px !important;
+    }
+
+    /* ==== PROJECT PART Responsive ==== */
+
+
+    /* ==== TESTI PART Responsive ==== */
+
+    #testi-part {
+        margin: 50px 0px !important;
+    }
+    .testi-heading{
+        text-align: center !important;
+    }
+    .testi-heading h4 {
+        font-size: 34px !important;
+    }
+    .testi-heading img{
+        display: none !important;
+    }
+    .testi-body-text{
+        margin-top: 15px !important;
+    }
+    .testi-body-text p {
+        font-size: 14px !important;
+        text-align: justify !important;
+        word-spacing: 0px !important;
+    }
+    .testi-bottom p {
+        font-size: 14px !important;
+    }
+
+    /* ==== TESTI PART Responsive ==== */
+
+
+    /* ==== FOOTER PART Responsive ==== */
+
+    #foter-part {
+        padding-top: 50px !important;
+        padding-bottom: 10px !important;
+    }
+    .foter-info-row{
+        justify-content: center !important;
+    }
+    .touch-info {
+        margin-bottom: 30px !important;
+    }
+    .touch-info h4 {
+        font-size: 12px !important;
+        padding-bottom: 15px !important;
+    }
+    .touch-info h5 {
+        font-size: 18px !important;
+    }
+
+    .foter-info-row {
+        margin-bottom: 35px !important;
+    }
+    .foter-logo{
+        height: 15px !important;
+        object-fit: cover !important;
+        margin-bottom: 20px !important;
+    }
+    .foter-logo img{
+        height: 15px !important;
+    }
+    .foter-contact-info h3 {
+        font-size: 10px !important;
+    }
+    .foter-contact-info h4 {
+        font-size: 10px !important;
+    }
+    .foter-social-icon h4 {
+        font-size: 10px !important;
+    }
+    .foter-social-icon a {
+        height: 12px !important;
+        width: 12px !important;
+        line-height: 12px !important;
+        margin: 0 5px !important;
+        font-size: 12px !important;
+    }
+    .foter-bottom h4 {
+        font-size: 10px !important;
+        font-weight: 500 !important;
+        padding-top: 15px !important;
+    }
+    
+    /* ==== FOOTER PART Responsive ==== */
+
+
+    /* ==== ABOUT Responsive ==== */
+
+    
+
+    /* ==== ABOUT Responsive ==== */
+}
+
+/* ============================================================== */
+/* ============================================================== */
+
+/* SMALL DEVICE RESPONSIVE */
+@media (min-width: 299.99px) and (max-width: 399.99px){
+    /* ==== Nav Bar Responsive ==== */
+
+    /* side bar  */
+
+    .bar-icon{
+        margin-top: 10px !important;
+    }
+    .bar-icon i{
+        font-size: 18px !important;
+    }
+    .sidebar-items a{
+        font-size: 16px !important;
+    }
+
+    /* nav bar  */
+    .navbar-brand{
+        margin-left: 15px !important;
+    }
+    .logo{
+        width: 80px !important;
+        object-fit: cover !important;
+    }
+    .navbar {
+        margin-top: 25px !important;
+    }
+
+    /* ==== Nav Bar Responsive ==== */
+
+
+    /* ==== BANNER Responsive ==== */
+
+    #banner-part {
+        padding: 150px 0px !important;
+    }
+    .banner-text h1 {
+        font-size: 28px !important;
+    }
+    .banner-btn {
+        margin-top: 80px !important;
+    }
+    .banner-btn a {
+        width: 200px !important;
+        font-size: 14px !important;
+    }
+    .banner-btn i {
+        margin-left: 15px !important;
+        font-size: 12px !important;
+    }
+    /* ==== BANNER Responsive ==== */
+
+
+    /* ==== ABOUT Responsive ==== */
+
+    #about-part{
+        margin: 100px 0px !important;
+    }
+    .about-left-text h3 {
+        font-size: 34px !important;
+        text-align: center !important;
+    }
+    .about-left-text p {
+        text-align: center !important;
+        word-spacing: 0px !important;
+        font-size: 14px !important;
+        line-height: 18px !important;
+    }
+    .about-left-btn {
+        text-align: center !important;
+        margin-top: 80px !important;
+        margin-bottom: 60px !important;
+    }
+    .about-left-btn a {
+        width: 180px !important;
+        padding: 5px !important;
+        font-size: 12px !important;
+    }
+    .about-left-btn i {
+        margin-left: 10px !important;
+        font-size: 12px !important;
+    }
+
+    .about-right{
+        display: none !important;
+    }
+
+    /* ==== ABOUT Responsive ==== */
+
+
+    /* ==== PROJECT PART Responsive ==== */
+
+    .project-item-row{
+        padding: 20px 10px !important;
+        display: flex !important;
+        justify-content: space-between !important;
+    }
+    .project-card{
+        padding-top: 50px !important;
+        padding-bottom: 50px !important;
+        border-bottom: 1px solid #FF9142;
+    }
+    .project-title h3 {
+        font-size: 34px !important;
+    }
+    .project-btn {
+        margin-top: 35px !important;
+    }
+    .project-btn a {
+        width: 160px !important;
+        padding: 5px !important;
+        font-size: 12px !important;
+    }
+    .project-btn i {
+        margin-left: 10px !important;
+        font-size: 12px !important;
+    }
+    .project-img {
+        height: 240px !important;
+        width: 280px !important;
+    }
+    .project-img img {
+        height: 240px !important;
+        width: 280px !important;
+        object-fit: cover !important;
+    }
+    .product-img-title {
+        margin-top: 10px !important;
+        margin-bottom: 15px !important;
+    }
+    .product-img-title h4 {
+        font-size: 16px !important;
+        line-height: 16px !important;
+    }
+    .product-img-title-icon {
+        display: none !important;
+    }
+    .client-info{
+        margin-bottom: 0px !important;
+    }
+    .client-info p {
+        font-size: 14px !important;
+    }
+    .client-name p {
+        margin-left: 15px !important;
+        font-size: 14px !important;
+    }
+
+    /* ==== PROJECT PART Responsive ==== */
+
+
+    /* ==== TESTI PART Responsive ==== */
+
+    #testi-part {
+        margin-top: 0px !important;
+        margin-bottom: 50px!important;
+    }
+    .testi-heading{
+        text-align: center !important;
+    }
+    .testi-heading h4 {
+        font-size: 36px !important;
+    }
+    .testi-heading img{
+        display: none !important;
+    }
+    .testi-body-text{
+        margin-top: 16px !important;
+    }
+    .testi-body-text p {
+        font-size: 16px !important;
+        text-align: justify !important;
+        word-spacing: 0px !important;
+    }
+    .testi-bottom p {
+        font-size: 14px !important;
+    }
+
+    /* ==== TESTI PART Responsive ==== */
+
+
+    /* ==== FOOTER PART Responsive ==== */
+
+    #foter-part {
+        padding-top: 50px !important;
+        padding-bottom: 10px !important;
+    }
+    .foter-info-row{
+        justify-content: center !important;
+    }
+    .touch-info {
+        margin-bottom: 30px !important;
+    }
+    .touch-info h4 {
+        font-size: 16px !important;
+        padding-bottom: 5px !important;
+    }
+    .touch-info h5 {
+        font-size: 18px !important;
+    }
+
+    .foter-info-row {
+        margin-bottom: 35px !important;
+    }
+    .foter-logo{
+        height: 20px !important;
+        object-fit: cover !important;
+        margin-bottom: 20px !important;
+    }
+    .foter-logo img{
+        height: 15px !important;
+    }
+    .foter-contact-info h3 {
+        font-size: 14px !important;
+    }
+    .foter-contact-info h4 {
+        font-size: 14px !important;
+    }
+    .foter-social-icon h4 {
+        font-size: 14px !important;
+    }
+    .foter-social-icon a {
+        height: 18px !important;
+        width: 18px !important;
+        line-height: 16px !important;
+        margin: 0 7px !important;
+        font-size: 14px !important;
+    }
+    .foter-bottom h4 {
+        font-size: 12px !important;
+        font-weight: 500 !important;
+        padding-top: 15px !important;
+    }
+    
+    /* ==== FOOTER PART Responsive ==== */
+
+}
+
+/* ============================================================== */
+/* ============================================================== */
+
+/* MEDIUM DEVICE RESPONSIVE */
+@media (min-width: 399.99px) and (max-width: 499.99px){
+    /* ==== Nav Bar Responsive ==== */
+
+    /* side bar  */
+
+    .bar-icon{
+        margin-top: 10px !important;
+    }
+    .bar-icon i{
+        font-size: 20px !important;
+    }
+    .sidebar-items a{
+        font-size: 14px !important;
+    }
+
+    /* nav bar  */
+    .navbar-brand{
+        margin-left: 20px !important;
+    }
+    .logo{
+        width: 100px !important;
+        object-fit: cover !important;
+    }
+    .navbar {
+        margin-top: 30px !important;
+    }
+
+    /* ==== Nav Bar Responsive ==== */
+
+
+    /* ==== BANNER Responsive ==== */
+
+    #banner-part {
+        padding: 150px 0px !important;
+    }
+    .banner-text h1 {
+        font-size: 32px !important;
+    }
+    .banner-btn {
+        margin-top: 100px !important;
+    }
+    .banner-btn a {
+        width: 220px !important;
+        font-size: 16px !important;
+    }
+    .banner-btn i {
+        margin-left: 20px !important;
+        font-size: 14px !important;
+    }
+    /* ==== BANNER Responsive ==== */
+
+
+    /* ==== ABOUT Responsive ==== */
+
+    #about-part{
+        margin: 100px 0px !important;
+    }
+    .about-left-text h3 {
+        font-size: 34px !important;
+        text-align: center !important;
+    }
+    .about-left-text p {
+        text-align: center !important;
+        word-spacing: 0px !important;
+        font-size: 16px !important;
+        line-height: 20px !important;
+    }
+    .about-left-btn {
+        text-align: center !important;
+        margin-top: 100px !important;
+        margin-bottom: 60px !important;
+    }
+    .about-left-btn a {
+        width: 240px !important;
+        font-size: 16px !important;
+    }
+    .about-left-btn i {
+        margin-left: 20px !important;
+        font-size: 14px !important;
+    }
+
+    .about-right{
+        display: none !important;
+    }
+
+    /* ==== ABOUT Responsive ==== */
+
+
+    /* ==== PROJECT PART Responsive ==== */
+
+    .project-item-row{
+        margin: 20px 0px !important;
+        display: flex !important;
+        justify-content: space-around !important;
+    }
+
+    .project-title h3 {
+        font-size: 38px !important;
+    }
+    .project-btn {
+        margin-top: 55px !important;
+    }
+    .project-btn a {
+        height: 50px !important;
+        width: 220px !important;
+        font-size: 16px !important;
+    }
+    .project-btn i {
+        margin-left: 10px !important;
+        font-size: 12px !important;
+    }
+    .project-card{
+        padding-top: 50px !important;
+        padding-bottom: 50px !important;
+        border-bottom: 1px solid #FF9142;
+    }
+    .project-img-col{
+        width: 180px !important;
+        display: flex !important;
+        justify-content: space-between !important;
+    }
+    .project-img{
+        width: 36vw !important;
+        height: 20vh !important;
+    }
+    .project-img img {
+        width: 36vw !important;
+        height: 20vh !important;
+        object-fit: cover !important;
+    }
+    .product-img-title {
+        margin-top: 10px !important;
+        margin-bottom: 10px !important;
+    }
+    .product-img-title h4 {
+        font-size: 14px !important;
+        line-height: 18px !important;
+    }
+    .product-img-title-icon {
+        display: none !important;
+    }
+    .client-info{
+        margin-bottom: 0px !important;
+    }
+    .client-info p {
+        font-size: 14px !important;
+        margin: 0px !important;
+    }
+    .client-name p {
+        margin-left: 10px !important;
+        font-size: 14px !important;
+        margin-bottom: 5px !important;
+    }
+
+    /* ==== PROJECT PART Responsive ==== */
+
+
+    /* ==== TESTI PART Responsive ==== */
+
+    #testi-part {
+        margin-top: 0px !important;
+        margin-bottom: 50px!important;
+    }
+    .testi-heading{
+        text-align: center !important;
+    }
+    .testi-heading h4 {
+        font-size: 40px !important;
+    }
+    .testi-heading img{
+        display: none !important;
+    }
+    .testi-body-text{
+        margin-top: 18px !important;
+    }
+    .testi-body-text p {
+        font-size: 18px !important;
+        text-align: justify !important;
+        word-spacing: 0px !important;
+    }
+    .testi-bottom p {
+        font-size: 20px !important;
+    }
+
+    /* ==== TESTI PART Responsive ==== */
+
+
+    /* ==== FOOTER PART Responsive ==== */
+
+    #foter-part {
+        padding-top: 50px !important;
+        padding-bottom: 10px !important;
+    }
+    .foter-info-row{
+        justify-content: center !important;
+    }
+    .touch-info {
+        margin-bottom: 30px !important;
+    }
+    .touch-info h4 {
+        font-size: 16px !important;
+        padding-bottom: 5px !important;
+    }
+    .touch-info h5 {
+        font-size: 18px !important;
+    }
+
+    .foter-info-row {
+        margin-bottom: 35px !important;
+    }
+    .foter-logo{
+        height: 20px !important;
+        object-fit: cover !important;
+        margin-bottom: 20px !important;
+    }
+    .foter-logo img{
+        height: 15px !important;
+    }
+    .foter-contact-info h3 {
+        font-size: 16px !important;
+    }
+    .foter-contact-info h4 {
+        font-size: 16px !important;
+    }
+    .foter-social-icon h4 {
+        font-size: 16px !important;
+    }
+    .foter-social-icon a {
+        height: 20px !important;
+        width: 20px !important;
+        line-height: 20px !important;
+        margin: 0 8px !important;
+        font-size: 16px !important;
+    }
+    .foter-bottom h4 {
+        font-size: 16px !important;
+        font-weight: 500 !important;
+        padding-top: 15px !important;
+    }
+    
+    /* ==== FOOTER PART Responsive ==== */
+
+}
+
+/* ============================================================== */
+/* ============================================================== */
+
+/* LARGE DEVICE RESPONSIVE */
+@media (min-width: 499.99px) and (max-width: 599.99px){
+    /* ==== Nav Bar Responsive ==== */
+
+    /* side bar  */
+
+    .bar-icon{
+        margin-top: 10px !important;
+    }
+    .bar-icon i{
+        font-size: 20px !important;
+    }
+    .sidebar-items a{
+        font-size: 18px !important;
+    }
+
+    /* nav bar  */
+    .navbar-brand{
+        margin-left: 30px !important;
+    }
+    .logo{
+        width: 100px !important;
+        object-fit: cover !important;
+    }
+    .navbar {
+        margin-top: 25px !important;
+    }
+
+    /* ==== Nav Bar Responsive ==== */
+
+
+    /* ==== BANNER Responsive ==== */
+
+    #banner-part {
+        padding: 150px 0px !important;
+    }
+    .banner-text h1 {
+        font-size: 36px !important;
+    }
+    .banner-btn {
+        margin-top: 100px !important;
+    }
+    .banner-btn a {
+        width: 200px !important;
+        font-size: 16px !important;
+    }
+    .banner-btn i {
+        margin-left: 15px !important;
+        font-size: 14px !important;
+    }
+    /* ==== BANNER Responsive ==== */
+
+
+    /* ==== ABOUT Responsive ==== */
+
+    #about-part{
+        margin: 100px 0px !important;
+    }
+    .about-left-text h3 {
+        font-size: 38px !important;
+        text-align: center !important;
+    }
+    .about-left-text p {
+        text-align: center !important;
+        word-spacing: 0px !important;
+        font-size: 16px !important;
+        line-height: 18px !important;
+    }
+    .about-left-btn {
+        text-align: center !important;
+        margin-top: 8vh !important;
+        margin-bottom: 4vh !important;
+    }
+    .about-left-btn a {
+        width: 240px !important;
+        font-size: 16px !important;
+        padding: 6px !important;
+    }
+    .about-left-btn i {
+        margin-left: 10px !important;
+        font-size: 12px !important;
+    }
+
+    .about-right{
+        display: none !important;
+    }
+
+    /* ==== ABOUT Responsive ==== */
+
+
+    /* ==== PROJECT PART Responsive ==== */
+
+    .project-item-row{
+        padding: 30px 15px !important;
+        display: flex !important;
+        justify-content: space-around !important;
+    }
+    .project-card{
+        padding-top: 50px !important;
+        padding-bottom: 50px !important;
+        border-bottom: 1px solid #FF9142;
+    }
+    .project-title h3 {
+        font-size: 38px !important;
+    }
+    .project-btn {
+        margin-top: 45px !important;
+    }
+    .project-btn a {
+        width: 240px !important;
+        font-size: 16px !important;
+        padding: 5px !important;
+    }
+    .project-btn i {
+        margin-left: 10px !important;
+        font-size: 12px !important;
+    }
+    .project-img-col{
+        width: 230px !important;
+        display: flex !important;
+        justify-content: space-between !important;
+    }
+    .project-img{
+        width: 36vw !important;
+        height: 20vh !important;
+    }
+    .project-img img {
+        width: 36vw !important;
+        height: 20vh !important;
+        object-fit: cover !important;
+    }
+    .product-img-title {
+        margin-top: 15px !important;
+        margin-bottom: 5px !important;
+    }
+    .product-img-title h4 {
+        font-size: 16px !important;
+        line-height: 18px !important;
+    }
+    .product-img-title-icon {
+        display: none !important;
+    }
+    .client-info{
+        margin-bottom: 0px !important;
+    }
+    .client-info p {
+        font-size: 14px !important;
+        margin: 0px !important;
+    }
+    .client-name p {
+        margin-left: 10px !important;
+        font-size: 14px !important;
+        margin-bottom: 5px !important;
+    }
+
+    /* ==== PROJECT PART Responsive ==== */
+
+
+    /* ==== TESTI PART Responsive ==== */
+
+    #testi-part {
+        margin-top: 0px !important;
+        margin-bottom: 50px!important;
+    }
+    .testi-heading{
+        text-align: center !important;
+    }
+    .testi-heading h4 {
+        font-size: 40px !important;
+    }
+    .testi-heading img{
+        display: none !important;
+    }
+    .testi-body-text{
+        margin-top: 20px !important;
+    }
+    .testi-body-text p {
+        font-size: 18px !important;
+        text-align: justify !important;
+        word-spacing: 0px !important;
+    }
+    .testi-bottom p {
+        font-size: 20px !important;
+    }
+
+    /* ==== TESTI PART Responsive ==== */
+
+
+    /* ==== FOOTER PART Responsive ==== */
+
+    #foter-part {
+        padding-top: 70px !important;
+        padding-bottom: 20px !important;
+    }
+    .foter-info-row{
+        justify-content: center !important;
+    }
+    .touch-info {
+        margin-bottom: 35px !important;
+    }
+    .touch-info h4 {
+        font-size: 18px !important;
+        padding-bottom: 5px !important;
+    }
+    .touch-info h5 {
+        font-size: 20px !important;
+    }
+
+    .foter-info-row {
+        margin-bottom: 35px !important;
+    }
+    .foter-logo{
+        height: 20px !important;
+        object-fit: cover !important;
+        margin-bottom: 40px !important;
+    }
+    .foter-logo img{
+        height: 15px !important;
+    }
+    .foter-contact-info h3 {
+        font-size: 16px !important;
+    }
+    .foter-contact-info h4 {
+        font-size: 16px !important;
+    }
+    .foter-social-icon h4 {
+        font-size: 16px !important;
+    }
+    .foter-social-icon a {
+        height: 22px !important;
+        width: 22px !important;
+        line-height: 22px !important;
+        margin: 0 10px !important;
+        font-size: 22px !important;
+    }
+    .foter-bottom h4 {
+        font-size: 16px !important;
+        font-weight: 500 !important;
+        padding-top: 25px !important;
+    }
+    
+    /* ==== FOOTER PART Responsive ==== */
+
+}
+
+/* ============================================================== */
+/* ============================================================== */
+
+/* EXTRA LARGE DEVICE RESPONSIVE */
+@media (min-width: 599.99px) and (max-width: 699.98px){
+    /* ==== Nav Bar Responsive ==== */
+
+    /* side bar  */
+
+    .bar-icon{
+        margin-top: 20px !important;
+    }
+    .bar-icon i{
+        font-size: 24px !important;
+    }
+    .sidebar-items a{
+        font-size: 18px !important;
+    }
+
+    /* nav bar  */
+    .navbar-brand{
+        margin-left: 30px !important;
+    }
+    .logo{
+        width: 120px !important;
+        object-fit: cover !important;
+    }
+    .navbar {
+        margin-top: 35px !important;
+    }
+
+    /* ==== Nav Bar Responsive ==== */
+
+
+    /* ==== BANNER Responsive ==== */
+
+    #banner-part {
+        padding: 160px 0px !important;
+    }
+    .banner-text h1 {
+        font-size: 40px !important;
+    }
+    .banner-btn {
+        margin-top: 140px !important;
+    }
+    .banner-btn a {
+        width: 250px !important;
+        font-size: 16px !important;
+    }
+    .banner-btn i {
+        margin-left: 25px !important;
+        font-size: 14px !important;
+    }
+    /* ==== BANNER Responsive ==== */
+
+
+    /* ==== ABOUT Responsive ==== */
+
+    #about-part{
+        margin: 100px 0px !important;
+    }
+    .about-left-text h3 {
+        font-size: 42px !important;
+        text-align: center !important;
+    }
+    .about-left-text p {
+        text-align: center !important;
+        word-spacing: 2px !important;
+        font-size: 16px !important;
+        line-height: 22px !important;
+    }
+    .about-left-btn {
+        text-align: center !important;
+        margin-top: 12vh !important;
+        margin-bottom: 6vh !important;
+    }
+    .about-left-btn a {
+        width: 260px !important;
+        font-size: 16px !important;
+        padding: 6px !important;
+    }
+    .about-left-btn i {
+        margin-left: 10px !important;
+        font-size: 12px !important;
+    }
+
+    .about-right{
+        display: none !important;
+    }
+
+    /* ==== ABOUT Responsive ==== */
+
+
+    /* ==== PROJECT PART Responsive ==== */
+
+    .project-item-row{
+        margin: 30px 0px !important;
+        display: flex !important;
+        justify-content: space-around !important;
+    }
+    .project-card{
+        margin: 30px 0px !important;
+        border-bottom: 1px solid #FF9142;
+    }
+    .project-title h3 {
+        font-size: 42px !important;
+    }
+    .project-btn {
+        margin-top: 55px !important;
+    }
+    .project-btn a {
+        width: 260px !important;
+        font-size: 16px !important;
+        padding: 5px !important;
+    }
+    .project-btn i {
+        margin-left: 15px !important;
+        font-size: 14px !important;
+    }
+    .project-img-col{
+        width: 250px !important;
+        display: flex !important;
+        justify-content: space-between !important;
+    }
+    .project-img{
+        width: 36vw !important;
+        height: 24vh !important;
+    }
+    .project-img img {
+        width: 36vw !important;
+        height: 24vh !important;
+        object-fit: cover !important;
+    }
+    .product-img-title {
+        margin-top: 15px !important;
+        margin-bottom: 15px !important;
+    }
+    .product-img-title h4 {
+        font-size: 16px !important;
+        line-height: 16px !important;
+    }
+    .product-img-title-icon {
+        display: none !important;
+    }
+    .client-info{
+        margin-bottom: 0px !important;
+    }
+    .client-info p {
+        font-size: 16px !important;
+        margin: 0px !important;
+    }
+    .client-name p {
+        margin-left: 10px !important;
+        font-size: 16px !important;
+        margin-bottom: 5px !important;
+    }
+
+    /* ==== PROJECT PART Responsive ==== */
+
+
+    /* ==== TESTI PART Responsive ==== */
+
+    #testi-part {
+        margin-top: 0px !important;
+        margin-bottom: 50px!important;
+    }
+    .testi-heading{
+        text-align: center !important;
+    }
+    .testi-heading h4 {
+        font-size: 40px !important;
+    }
+    .testi-heading img{
+        display: none !important;
+    }
+    .testi-body-text{
+        margin-top: 20px !important;
+    }
+    .testi-body-text p {
+        font-size: 18px !important;
+        text-align: justify !important;
+        word-spacing: 0px !important;
+    }
+    .testi-bottom p {
+        font-size: 20px !important;
+    }
+
+    /* ==== TESTI PART Responsive ==== */
+
+
+    /* ==== FOOTER PART Responsive ==== */
+
+    #foter-part {
+        padding-top: 70px !important;
+        padding-bottom: 20px !important;
+    }
+    .foter-info-row{
+        justify-content: center !important;
+    }
+    .touch-info {
+        margin-bottom: 35px !important;
+    }
+    .touch-info h4 {
+        font-size: 18px !important;
+        padding-bottom: 5px !important;
+    }
+    .touch-info h5 {
+        font-size: 20px !important;
+    }
+
+    .foter-info-row {
+        margin-bottom: 35px !important;
+    }
+    .foter-logo{
+        height: 20px !important;
+        object-fit: cover !important;
+        margin-bottom: 40px !important;
+    }
+    .foter-logo img{
+        height: 15px !important;
+    }
+    .foter-contact-info h3 {
+        font-size: 16px !important;
+    }
+    .foter-contact-info h4 {
+        font-size: 16px !important;
+    }
+    .foter-social-icon h4 {
+        font-size: 16px !important;
+    }
+    .foter-social-icon a {
+        height: 22px !important;
+        width: 22px !important;
+        line-height: 22px !important;
+        margin: 0 10px !important;
+        font-size: 22px !important;
+    }
+    .foter-bottom h4 {
+        font-size: 16px !important;
+        font-weight: 500 !important;
+        padding-top: 25px !important;
+    }
+    
+    /* ==== FOOTER PART Responsive ==== */
+
+}
+
+/* ============================================================== */
+/* ============================================================== */
+
+/* SMALL DEVICE RESPONSIVE */
+@media (min-width: 699.99px) and (max-width: 799.98px){
+    /* ==== Nav Bar Responsive ==== */
+
+    /* side bar  */
+
+    .bar-icon{
+        margin-top: 20px !important;
+    }
+    .bar-icon i{
+        font-size: 24px !important;
+    }
+    .sidebar-items a{
+        font-size: 18px !important;
+    }
+
+    /* nav bar  */
+    .navbar-brand{
+        margin-left: 30px !important;
+    }
+    .logo{
+        width: 120px !important;
+        object-fit: cover !important;
+    }
+    .navbar {
+        margin-top: 35px !important;
+    }
+
+    /* ==== Nav Bar Responsive ==== */
+
+
+    /* ==== BANNER Responsive ==== */
+
+    #banner-part {
+        padding: 180px 0px !important;
+    }
+    .banner-text h1 {
+        font-size: 42px !important;
+    }
+    .banner-btn {
+        margin-top: 180px !important;
+    }
+    .banner-btn a {
+        width: 280px !important;
+        font-size: 18px !important;
+    }
+    .banner-btn i {
+        margin-left: 30px !important;
+        font-size: 16px !important;
+    }
+    /* ==== BANNER Responsive ==== */
+
+
+    /* ==== ABOUT Responsive ==== */
+
+    #about-part{
+        margin: 100px 0px !important;
+    }
+    .about-left-text h3 {
+        font-size: 38px !important;
+        text-align: center !important;
+    }
+    .about-left-text p {
+        text-align: center !important;
+        word-spacing: 2px !important;
+        font-size: 16px !important;
+        line-height: 24px !important;
+    }
+    .about-left-btn {
+        text-align: center !important;
+        margin-top: 12vh !important;
+        margin-bottom: 6vh !important;
+    }
+    .about-left-btn a {
+        width: 260px !important;
+        font-size: 16px !important;
+        padding: 6px !important;
+    }
+    .about-left-btn i {
+        margin-left: 10px !important;
+        font-size: 12px !important;
+    }
+
+    .about-right{
+        display: none !important;
+    }
+
+    /* ==== ABOUT Responsive ==== */
+
+
+    /* ==== PROJECT PART Responsive ==== */
+
+    .project-item-row{
+        padding: 30px 0px !important;
+        display: flex !important;
+        justify-content: space-around !important;
+    }
+    .project-card{
+        margin: 30px 0px !important;
+        border-bottom: 1px solid #FF9142;
+    }
+    .project-title h3 {
+        font-size: 42px !important;
+    }
+    .project-btn {
+        margin-top: 55px !important;
+    }
+    .project-btn a {
+        width: 260px !important;
+        font-size: 16px !important;
+        padding: 5px !important;
+    }
+    .project-btn i {
+        margin-left: 15px !important;
+        font-size: 14px !important;
+    }
+    .project-img-col{
+        width: 250px !important;
+        display: flex !important;
+        justify-content: space-between !important;
+    }
+    .project-img{
+        width: 34vw !important;
+        height: 24vh !important;
+    }
+    .project-img img {
+        width: 34vw !important;
+        height: 24vh !important;
+        object-fit: cover !important;
+    }
+    .product-img-title {
+        margin-top: 15px !important;
+        margin-bottom: 15px !important;
+    }
+    .product-img-title h4 {
+        font-size: 16px !important;
+        line-height: 16px !important;
+    }
+    .product-img-title-icon {
+        display: none !important;
+    }
+    .client-info{
+        margin-bottom: 0px !important;
+    }
+    .client-info p {
+        font-size: 16px !important;
+        margin: 0px !important;
+    }
+    .client-name p {
+        margin-left: 10px !important;
+        font-size: 16px !important;
+        margin-bottom: 5px !important;
+    }
+
+    /* ==== PROJECT PART Responsive ==== */
+
+
+    /* ==== TESTI PART Responsive ==== */
+
+    #testi-part {
+        margin-top: 0px !important;
+        margin-bottom: 50px!important;
+    }
+    .testi-heading{
+        text-align: center !important;
+    }
+    .testi-heading h4 {
+        font-size: 40px !important;
+    }
+    .testi-heading img{
+        display: none !important;
+    }
+    .testi-body-text{
+        margin-top: 20px !important;
+    }
+    .testi-body-text p {
+        font-size: 18px !important;
+        text-align: justify !important;
+        word-spacing: 0px !important;
+    }
+    .testi-bottom p {
+        font-size: 20px !important;
+    }
+
+    /* ==== TESTI PART Responsive ==== */
+
+
+    /* ==== FOOTER PART Responsive ==== */
+
+    #foter-part {
+        padding-top: 70px !important;
+        padding-bottom: 20px !important;
+    }
+    .foter-info-row{
+        justify-content: center !important;
+    }
+    .touch-info {
+        margin-bottom: 35px !important;
+    }
+    .touch-info h4 {
+        font-size: 18px !important;
+        padding-bottom: 5px !important;
+    }
+    .touch-info h5 {
+        font-size: 20px !important;
+    }
+
+    .foter-info-row {
+        margin-bottom: 35px !important;
+    }
+    .foter-logo{
+        height: 20px !important;
+        object-fit: cover !important;
+        margin-bottom: 40px !important;
+    }
+    .foter-logo img{
+        height: 15px !important;
+    }
+    .foter-contact-info h3 {
+        font-size: 16px !important;
+    }
+    .foter-contact-info h4 {
+        font-size: 16px !important;
+    }
+    .foter-social-icon h4 {
+        font-size: 16px !important;
+    }
+    .foter-social-icon a {
+        height: 22px !important;
+        width: 22px !important;
+        line-height: 22px !important;
+        margin: 0 10px !important;
+        font-size: 22px !important;
+    }
+    .foter-bottom h4 {
+        font-size: 16px !important;
+        font-weight: 500 !important;
+        padding-top: 25px !important;
+    }
+    
+    /* ==== FOOTER PART Responsive ==== */
+
+}
+
+/* ============================================================== */
+/* ============================================================== */
+
+/* XXL DEVICE RESPONSIVE */
+@media (min-width: 799.99px) and (max-width: 899.98px){
+    /* ==== Nav Bar Responsive ==== */
+
+    /* side bar  */
+
+    .bar-icon{
+        margin-top: 20px !important;
+    }
+    .bar-icon i{
+        font-size: 24px !important;
+    }
+    .sidebar-items a{
+        font-size: 18px !important;
+    }
+
+    /* nav bar  */
+    .navbar-brand{
+        margin-left: 30px !important;
+    }
+    .logo{
+        width: 120px !important;
+        object-fit: cover !important;
+    }
+    .navbar {
+        margin-top: 35px !important;
+    }
+
+    /* ==== Nav Bar Responsive ==== */
+
+
+    /* ==== BANNER Responsive ==== */
+
+    #banner-part {
+        padding: 180px 0px !important;
+    }
+    .banner-text h1 {
+        font-size: 52px !important;
+    }
+    .banner-btn {
+        margin-top: 180px !important;
+    }
+    .banner-btn a {
+        width: 280px !important;
+        font-size: 18px !important;
+    }
+    .banner-btn i {
+        margin-left: 30px !important;
+        font-size: 16px !important;
+    }
+    /* ==== BANNER Responsive ==== */
+
+
+    /* ==== ABOUT Responsive ==== */
+
+    #about-part{
+        margin: 100px 0px !important;
+    }
+    .about-left-text h3 {
+        font-size: 48px !important;
+        text-align: center !important;
+    }
+    .about-left-text p {
+        text-align: center !important;
+        word-spacing: 2px !important;
+        font-size: 18px !important;
+        line-height: 24px !important;
+        margin-top: 50px !important;
+    }
+    .about-left-btn {
+        text-align: center !important;
+        margin-top: 12vh !important;
+        margin-bottom: 6vh !important;
+    }
+    .about-left-btn a {
+        width: 260px !important;
+        font-size: 16px !important;
+        padding: 6px !important;
+    }
+    .about-left-btn i {
+        margin-left: 10px !important;
+        font-size: 12px !important;
+    }
+
+    .about-right{
+        display: none !important;
+    }
+
+    /* ==== ABOUT Responsive ==== */
+
+
+    /* ==== PROJECT PART Responsive ==== */
+
+    .project-item-row{
+        display: flex !important;
+        justify-content: space-around !important;
+        padding: 30px 0px !important;
+    }
+    .project-card{
+        padding-top: 50px !important;
+        padding-bottom: 50px !important;
+        border-bottom: 1px solid #FF9142;
+    }
+    .project-title h3 {
+        font-size: 52px !important;
+    }
+    .project-btn {
+        margin-top: 55px !important;
+    }
+    .project-btn a {
+        width: 260px !important;
+        font-size: 16px !important;
+        padding: 5px !important;
+    }
+    .project-btn i {
+        margin-left: 15px !important;
+        font-size: 14px !important;
+    }
+    .project-img-col{
+        width: 340px !important;
+        display: flex !important;
+        justify-content: space-between !important;
+    }
+    .project-img{
+        width: 36vw !important;
+        height: 24vh !important;
+    }
+    .project-img img {
+        width: 36vw !important;
+        height: 24vh !important;
+        object-fit: cover !important;
+    }
+    .product-img-title {
+        margin-top: 20px !important;
+        margin-bottom: 30px !important;
+    }
+    .product-img-title h4 {
+        font-size: 22px !important;
+        line-height: 24px !important;
+    }
+    .product-img-title-icon {
+        display: none !important;
+    }
+    .client-info{
+        margin-bottom: 0px !important;
+    }
+    .client-info p {
+        font-size: 18px !important;
+    }
+    .client-name p {
+        margin-left: 25px !important;
+        font-size: 18px !important;
+    }
+
+    /* ==== PROJECT PART Responsive ==== */
+
+
+    /* ==== TESTI PART Responsive ==== */
+
+    #testi-part {
+        margin-top: 0px !important;
+        margin-bottom: 50px!important;
+    }
+    .testi-heading{
+        text-align: center !important;
+    }
+    .testi-heading h4 {
+        font-size: 40px !important;
+    }
+    .testi-heading img{
+        display: none !important;
+    }
+    .testi-body-text{
+        margin-top: 20px !important;
+    }
+    .testi-body-text p {
+        font-size: 18px !important;
+        text-align: justify !important;
+        word-spacing: 0px !important;
+    }
+    .testi-bottom p {
+        font-size: 20px !important;
+    }
+
+    /* ==== TESTI PART Responsive ==== */
+
+
+    /* ==== FOOTER PART Responsive ==== */
+
+    #foter-part {
+        padding-top: 70px !important;
+        padding-bottom: 20px !important;
+    }
+    .foter-info-row{
+        justify-content: center !important;
+    }
+    .touch-info {
+        margin-bottom: 35px !important;
+    }
+    .touch-info h4 {
+        font-size: 18px !important;
+        padding-bottom: 5px !important;
+    }
+    .touch-info h5 {
+        font-size: 20px !important;
+    }
+
+    .foter-info-row {
+        margin-bottom: 35px !important;
+    }
+    .foter-logo{
+        height: 20px !important;
+        object-fit: cover !important;
+        margin-bottom: 40px !important;
+    }
+    .foter-logo img{
+        height: 15px !important;
+    }
+    .foter-contact-info h3 {
+        font-size: 16px !important;
+    }
+    .foter-contact-info h4 {
+        font-size: 16px !important;
+    }
+    .foter-social-icon h4 {
+        font-size: 16px !important;
+    }
+    .foter-social-icon a {
+        height: 22px !important;
+        width: 22px !important;
+        line-height: 22px !important;
+        margin: 0 10px !important;
+        font-size: 22px !important;
+    }
+    .foter-bottom h4 {
+        font-size: 16px !important;
+        font-weight: 500 !important;
+        padding-top: 25px !important;
+    }
+    
+    /* ==== FOOTER PART Responsive ==== */
+
+}
+
+/* ============================================================== */
+/* ============================================================== */
+
+/* XXXL DEVICE RESPONSIVE */
+@media (min-width: 899.99px) and (max-width: 999.98px){
+    /* ==== Nav Bar Responsive ==== */
+
+    /* side bar  */
+
+    .bar-icon{
+        margin-top: 20px !important;
+    }
+    .bar-icon i{
+        font-size: 24px !important;
+    }
+    .sidebar-items a{
+        font-size: 18px !important;
+    }
+
+    /* nav bar  */
+    .navbar-brand{
+        margin-left: 30px !important;
+    }
+    .logo{
+        width: 120px !important;
+        object-fit: cover !important;
+    }
+    .navbar {
+        margin-top: 35px !important;
+    }
+
+    /* ==== Nav Bar Responsive ==== */
+
+
+    /* ==== BANNER Responsive ==== */
+
+    #banner-part {
+        padding: 180px 0px !important;
+    }
+    .banner-text h1 {
+        font-size: 52px !important;
+    }
+    .banner-btn {
+        margin-top: 180px !important;
+    }
+    .banner-btn a {
+        width: 280px !important;
+        font-size: 18px !important;
+    }
+    .banner-btn i {
+        margin-left: 30px !important;
+        font-size: 16px !important;
+    }
+    /* ==== BANNER Responsive ==== */
+
+
+    /* ==== ABOUT Responsive ==== */
+
+    #about-part{
+        margin: 100px 0px !important;
+    }
+    .about-left-text h3 {
+        font-size: 48px !important;
+        text-align: center !important;
+    }
+    .about-left-text p {
+        text-align: center !important;
+        word-spacing: 2px !important;
+        font-size: 18px !important;
+        line-height: 24px !important;
+        margin-top: 50px !important;
+    }
+    .about-left-btn {
+        text-align: center !important;
+        margin-top: 12vh !important;
+        margin-bottom: 6vh !important;
+    }
+    .about-left-btn a {
+        width: 260px !important;
+        font-size: 16px !important;
+        padding: 6px !important;
+    }
+    .about-left-btn i {
+        margin-left: 10px !important;
+        font-size: 12px !important;
+    }
+
+    .about-right{
+        display: none !important;
+    }
+
+
+    /* ==== ABOUT Responsive ==== */
+
+
+    /* ==== PROJECT PART Responsive ==== */
+
+    .project-item-row{
+        display: flex !important;
+        justify-content: space-around !important;
+        padding: 30px 0px !important;
+    }
+    .project-card{
+        padding-top: 50px !important;
+        padding-bottom: 50px !important;
+        border-bottom: 1px solid #FF9142;
+    }
+    .project-title h3 {
+        font-size: 52px !important;
+    }
+    .project-btn {
+        margin-top: 55px !important;
+    }
+    .project-btn a {
+        width: 260px !important;
+        font-size: 16px !important;
+        padding: 5px !important;
+    }
+    .project-btn i {
+        margin-left: 15px !important;
+        font-size: 14px !important;
+    }
+    .project-img-col {
+        width: 360px !important;
+        display: flex !important;
+        justify-content: space-between !important;
+    }
+    .project-img{
+        width: 34vw !important;
+        height: 24vh !important;
+    }
+    .project-img img {
+        width: 34vw !important;
+        height: 24vh !important;
+        object-fit: cover !important;
+    }
+    .product-img-title {
+        margin-top: 20px !important;
+        margin-bottom: 30px !important;
+    }
+    .product-img-title h4 {
+        font-size: 22px !important;
+        line-height: 24px !important;
+    }
+    .product-img-title-icon {
+        display: none !important;
+    }
+    .client-info{
+        margin-bottom: 0px !important;
+    }
+    .client-info p {
+        font-size: 18px !important;
+    }
+    .client-name p {
+        margin-left: 25px !important;
+        font-size: 18px !important;
+    }
+
+    /* ==== PROJECT PART Responsive ==== */
+
+
+    /* ==== TESTI PART Responsive ==== */
+
+    #testi-part {
+        margin-top: 0px !important;
+        margin-bottom: 50px!important;
+    }
+    .testi-heading{
+        text-align: center !important;
+    }
+    .testi-heading h4 {
+        font-size: 40px !important;
+    }
+    .testi-heading img{
+        display: none !important;
+    }
+    .testi-body-text{
+        margin-top: 20px !important;
+    }
+    .testi-body-text p {
+        font-size: 18px !important;
+        text-align: justify !important;
+        word-spacing: 0px !important;
+    }
+    .testi-bottom p {
+        font-size: 20px !important;
+    }
+
+    /* ==== TESTI PART Responsive ==== */
+
+
+    /* ==== FOOTER PART Responsive ==== */
+
+    #foter-part {
+        padding-top: 70px !important;
+        padding-bottom: 20px !important;
+    }
+    .foter-info-row{
+        justify-content: center !important;
+    }
+    .touch-info {
+        margin-bottom: 35px !important;
+    }
+    .touch-info h4 {
+        font-size: 18px !important;
+        padding-bottom: 5px !important;
+    }
+    .touch-info h5 {
+        font-size: 20px !important;
+    }
+
+    .foter-info-row {
+        margin-bottom: 35px !important;
+    }
+    .foter-logo{
+        height: 20px !important;
+        object-fit: cover !important;
+        margin-bottom: 40px !important;
+    }
+    .foter-logo img{
+        height: 15px !important;
+    }
+    .foter-contact-info h3 {
+        font-size: 16px !important;
+    }
+    .foter-contact-info h4 {
+        font-size: 16px !important;
+    }
+    .foter-social-icon h4 {
+        font-size: 16px !important;
+    }
+    .foter-social-icon a {
+        height: 22px !important;
+        width: 22px !important;
+        line-height: 22px !important;
+        margin: 0 10px !important;
+        font-size: 22px !important;
+    }
+    .foter-bottom h4 {
+        font-size: 16px !important;
+        font-weight: 500 !important;
+        padding-top: 25px !important;
+    }
+    
+    /* ==== FOOTER PART Responsive ==== */
+
+}
+/* ============================================================== */
+/* ============================================================== */
+
+/* XXXXL DEVICE RESPONSIVE */
+@media (min-width: 999.99px) and (max-width: 1099.98px){
+    /* ==== Nav Bar Responsive ==== */
+
+    /* side bar  */
+
+    .bar-icon{
+        margin-top: 20px !important;
+    }
+    .bar-icon i{
+        font-size: 24px !important;
+    }
+    .sidebar-items a{
+        font-size: 18px !important;
+    }
+
+    /* nav bar  */
+    .navbar-brand{
+        margin-left: 30px !important;
+    }
+    .logo{
+        width: 120px !important;
+        object-fit: cover !important;
+    }
+    .navbar {
+        margin-top: 35px !important;
+    }
+
+    /* ==== Nav Bar Responsive ==== */
+
+
+    /* ==== BANNER Responsive ==== */
+
+    #banner-part {
+        padding: 180px 0px !important;
+    }
+    .banner-text h1 {
+        font-size: 52px !important;
+    }
+    .banner-btn {
+        margin-top: 180px !important;
+    }
+    .banner-btn a {
+        width: 280px !important;
+        font-size: 18px !important;
+    }
+    .banner-btn i {
+        margin-left: 30px !important;
+        font-size: 16px !important;
+    }
+    /* ==== BANNER Responsive ==== */
+
+
+    /* ==== ABOUT Responsive ==== */
+
+    #about-part{
+        margin: 100px 0px !important;
+    }
+    .about-row{
+        display: flex !important;
+        justify-content: space-evenly !important;
+        align-items: center !important;
+    }
+    .about-left-text h3 {
+        font-size: 48px !important;
+        text-align: center !important;
+    }
+    .about-left-text p {
+        text-align: center !important;
+        word-spacing: 2px !important;
+        font-size: 18px !important;
+        line-height: 24px !important;
+        margin-top: 50px !important;
+    }
+    .about-left-btn {
+        text-align: center !important;
+        margin-top: 12vh !important;
+        margin-bottom: 6vh !important;
+    }
+    .about-left-btn a {
+        width: 260px !important;
+        font-size: 16px !important;
+        padding: 6px !important;
+    }
+    .about-left-btn i {
+        margin-left: 10px !important;
+        font-size: 12px !important;
+    }
+
+    .about-right-col{
+        width: 250px !important;
+        height: 250px !important;
+    }
+    .about-right-img{
+        height: 300px !important;
+        width: 300px !important;
+    }
+    .about-right-img img{
+        height: 300px !important;
+        width: 300px !important;
+    }
+
+    /* ==== ABOUT Responsive ==== */
+
+
+    /* ==== PROJECT PART Responsive ==== */
+
+    .project-item-row{
+        display: flex !important;
+        justify-content: space-around !important;
+        padding: 30px 0px !important;
+    }
+    .project-card{
+        padding-top: 50px !important;
+        padding-bottom: 50px !important;
+        border-bottom: 1px solid #FF9142;
+    }
+    .project-title h3 {
+        font-size: 52px !important;
+    }
+    .project-btn {
+        margin-top: 55px !important;
+    }
+    .project-btn a {
+        width: 260px !important;
+        font-size: 16px !important;
+        padding: 5px !important;
+    }
+    .project-btn i {
+        margin-left: 15px !important;
+        font-size: 14px !important;
+    }
+    .project-img-col {
+        width: 360px !important;
+        display: flex !important;
+        justify-content: space-between !important;
+    }
+    .project-img{
+        width: 34vw !important;
+        height: 24vh !important;
+    }
+    .project-img img {
+        width: 34vw !important;
+        height: 24vh !important;
+        object-fit: cover !important;
+    }
+    .product-img-title {
+        margin-top: 20px !important;
+        margin-bottom: 30px !important;
+    }
+    .product-img-title h4 {
+        font-size: 22px !important;
+        line-height: 24px !important;
+    }
+    .product-img-title-icon {
+        display: none !important;
+    }
+    .client-info{
+        margin-bottom: 0px !important;
+    }
+    .client-info p {
+        font-size: 18px !important;
+    }
+    .client-name p {
+        margin-left: 25px !important;
+        font-size: 18px !important;
+    }
+
+    /* ==== PROJECT PART Responsive ==== */
+
+
+    /* ==== TESTI PART Responsive ==== */
+
+    #testi-part {
+        margin-top: 0px !important;
+        margin-bottom: 50px!important;
+    }
+    .testi-heading{
+        text-align: center !important;
+    }
+    .testi-heading h4 {
+        font-size: 40px !important;
+    }
+    .testi-heading img{
+        display: none !important;
+    }
+    .testi-body-text{
+        margin-top: 20px !important;
+    }
+    .testi-body-text p {
+        font-size: 18px !important;
+        text-align: justify !important;
+        word-spacing: 0px !important;
+    }
+    .testi-bottom p {
+        font-size: 20px !important;
+    }
+
+    /* ==== TESTI PART Responsive ==== */
+
+
+    /* ==== FOOTER PART Responsive ==== */
+
+    #foter-part {
+        padding-top: 70px !important;
+        padding-bottom: 20px !important;
+    }
+    .foter-info-row{
+        justify-content: center !important;
+    }
+    .touch-info {
+        margin-bottom: 35px !important;
+    }
+    .touch-info h4 {
+        font-size: 18px !important;
+        padding-bottom: 5px !important;
+    }
+    .touch-info h5 {
+        font-size: 20px !important;
+    }
+
+    .foter-info-row {
+        margin-bottom: 35px !important;
+    }
+    .foter-logo{
+        height: 20px !important;
+        object-fit: cover !important;
+        margin-bottom: 40px !important;
+    }
+    .foter-logo img{
+        height: 15px !important;
+    }
+    .foter-contact-info h3 {
+        font-size: 16px !important;
+    }
+    .foter-contact-info h4 {
+        font-size: 16px !important;
+    }
+    .foter-social-icon h4 {
+        font-size: 16px !important;
+    }
+    .foter-social-icon a {
+        height: 22px !important;
+        width: 22px !important;
+        line-height: 22px !important;
+        margin: 0 10px !important;
+        font-size: 22px !important;
+    }
+    .foter-bottom h4 {
+        font-size: 16px !important;
+        font-weight: 500 !important;
+        padding-top: 25px !important;
+    }
+    
+    /* ==== FOOTER PART Responsive ==== */
+
+}

@@ -1,0 +1,518 @@
+/* ====== NAVBAR CSS START ====== */
+
+#sidemenu{
+    margin-right: 5%;
+}
+.bar-icon{
+    margin-top: 10px;
+    cursor: pointer;
+}
+.bar-icon i{
+    color: #FF9142;
+    font-size: 22px;
+}
+.side-bar{
+    position: absolute;
+    top: 0px;
+    left: -100%;
+    height: 100vh;
+    width: 60%;
+    z-index: 9;
+    background: #000;
+    transition: all linear 0.4s;
+    /* display: none; */
+}
+.sidebar-items{
+    margin-top: 8vh;
+    text-align: left;
+    overflow-x: hidden !important;
+}
+.sidebar-items ul{
+    margin-left: -30px;
+}
+.sidebar-items li{
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+}
+.sidebar-items a{
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    padding-left: 3vh;
+    width: 100vh;
+    color: #FFF;
+    transition: all linear 0.4s;
+}
+.sidebar-items a:hover{
+    background-color: #DEDEDE;
+    color: #000;
+}
+.cross-icon{
+    position: absolute;
+    top: 35px;
+    right: 20px;
+    cursor: pointer;
+}
+.cross-icon i{
+    color: #FF9142;
+    font-size: 3.5vh;
+}
+
+
+.navbar {
+    margin-top: 70px;
+    /* position: absolute; */
+    top: 0;
+    left: 0;
+    width: 100%;
+    /* z-index: 999; */
+    animation-name: navbar;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in-out;
+}
+@keyframes navbar {
+    from {
+        margin-top: -70px;
+    }
+
+    to {
+        margin-top: 70px;
+    }
+}
+.navbar-brand{
+    margin-left: 5%;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    margin-right: 20px;
+    margin-left: 20px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: #FFF;
+    transition: all linear 0.4s;
+    position: relative;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: rgba(255, 255, 255, 0.5);
+}
+.navbar-expand-lg .navbar-nav .nav-link::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    border: none;
+    background: rgba(255, 255, 255, 0.8);
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: all linear 0.4s;
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover:after {
+    opacity: 1;
+}
+.navbar-expand-lg .resume .resume-btn {
+    margin-top: 0px;
+    margin-right: 40px;
+    margin-left: 40px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+    background: #030304;
+    transition: all linear 0.4s;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+.navbar-expand-lg .resume .resume-btn:hover{
+    color: #fff;
+    background: #030304;
+    border: 2px solid rgba(255, 255, 255);
+}
+/* ====== NAVBAR CSS   END ====== */
+
+
+
+/* ====== BANNER CSS START ====== */
+
+#banner-part{
+    padding: 200px 0px;
+}
+.banner-row{
+    justify-content: center;
+}
+.banner-text{
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+.banner-text h1{
+    font-family: 'Syne', sans-serif;
+    font-size: 72px;
+    font-weight: 500;
+    color: #fff;
+}
+.common-blob{
+    height: 6vmax;
+    width: 6vmax;
+    background: #757575;
+    padding: 50px;
+    position: absolute;
+    top: 0;
+    right: 100px;
+    transform: rotate(40deg);
+    z-index: -999 !important;
+    filter: blur(4vmax);
+}
+.banner-btn{
+    text-align: center;
+    margin-top: 95px;
+}
+.banner-btn a{
+    width: 240px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFF;
+    background: #FF9142;
+    border: none;
+    border-radius: 50px;
+    padding: 10px;
+    transition: all linear 0.4s;
+}
+.banner-btn i{
+    margin-left: 15px;
+    font-size: 16px;
+}
+/* ====== BANNER CSS   END ====== */
+
+
+
+/* ====== ABOUT CSS START ====== */
+
+#about-part{
+    margin: 150px 0px;
+}
+.about-row{
+    align-items: center;
+}
+.about-left{
+
+}
+.about-left-text{
+    position: relative;
+}
+.about-left-text h3{
+    font-family: 'Syne', sans-serif;
+    font-size: 56px;
+    font-weight: 500;
+    color: #fff;
+}
+.about-left-text p{
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #A8A8A8;
+    line-height: 26px;
+    margin-top: 20px;
+}
+.about-left-btn{
+    margin-top: 75px;
+}
+.about-left-btn a{
+    text-align: center;
+    width: 240px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFF;
+    background: #FF9142;
+    border: none;
+    border-radius: 50px;
+    padding: 10px;
+    transition: all linear 0.4s;
+}
+.about-left-btn i{
+    margin-left: 15px;
+    font-size: 16px;
+}
+.about-common-blob{
+    height: 6vmax;
+    width: 6vmax;
+    background: #757575;
+    padding: 50px;
+    position: absolute;
+    top: -30px;
+    left: -40px;
+    transform: rotate(40deg);
+    z-index: -999 !important;
+    filter: blur(4vmax);
+}
+
+/* about right  */
+
+.about-right{
+    display: flex;
+    justify-content: center;
+}
+.about-right-img{
+    height: 500px;
+    width: 500px;
+    position: relative;
+}
+.about-right-img img{
+    border-radius: 50px;
+    object-fit: cover;
+}
+.about-img-shape-up {
+    height: 104px;
+    width: 22px;
+    border-radius: 50px;
+    border: 1px solid #FF9142;
+    background: transparent;
+    position: absolute;
+    top: -50px;
+    right: 132px;
+    transform: rotate(90deg);
+}
+.about-img-shape{
+    height: 178px;
+    width: 54px;
+    border-radius: 50px;
+    border: 1px solid #FF9142;
+    background: transparent;
+    position: absolute;
+    bottom: 50px;
+    left: -22px;
+}
+/* ====== ABOUT CSS   END ====== */
+
+
+
+/* ====== PROJECT PART CSS START ====== */
+
+#project-part{
+    margin: 150px 0px;
+}
+.common-title-row{
+    justify-content: center;
+}
+.project-title{
+    text-align: center;
+    position: relative;
+}
+.project-title h3{
+    font-family: 'Syne', sans-serif;
+    font-size: 56px;
+    font-weight: 400;
+    color: #FFF;
+}
+.project-common-blob {
+	height: 6vmax;
+	width: 6vmax;
+	background: #757575;
+	padding: 50px;
+	position: absolute;
+	top: -10px;
+	right: 200px;
+	transform: rotate(40deg);
+	z-index: -999 !important;
+    filter: blur(4vh);
+}
+.project-btn{
+    margin-top: 55px;
+    text-align: center;
+}
+.project-btn a{
+    text-align: center;
+    width: 240px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFF;
+    background: transparent;
+    border: 1px solid #FF9142;
+    border-radius: 50px;
+    padding: 12px;
+    transition: all linear 0.4s;
+}
+.project-btn i{
+    margin-left: 15px;
+    font-size: 16px;
+}
+
+
+.project-card{
+    margin-top: 50px;
+}
+.project-img{
+    height: 600px;
+    width: 500px;
+}
+.project-img img{
+    object-fit: cover;
+    border-radius: 10px;
+}
+.product-img-title{
+    margin-top: 30px;
+    margin-bottom: 25px;
+}
+.product-img-title h4{
+    font-family: 'Syne', sans-serif;
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 35px;
+    color: #FFF;
+}
+.product-img-title-icon {
+    height: 1px;
+    width: 50px;
+    background: #FF9142;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+.client-side{
+    
+}
+.client-info{
+    
+}
+.client-info p{
+    font-family: 'Syne', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #606060;
+}
+.client-name{
+    display: flex;
+}
+.client-name p{
+    margin-left: 20px;
+    font-family: 'Syne', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+
+/* ====== PROJECT PART CSS   END ====== */
+
+
+
+/* ====== TESTIMONIAL PART CSS START ====== */
+
+#testi-part{
+    margin: 150px 0px;
+}
+.testi-heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.testi-heading h4{
+    font-family: 'Syne', sans-serif;
+    font-size: 64px;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+.testi-body-text{
+    margin-top: 30px;
+}
+.testi-body-text p{
+    font-family: 'Syne', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #949494;
+}
+.testi-bottom p{
+    font-family: 'Syne', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+
+/* ====== TESTIMONIAL PART CSS   END ====== */
+
+
+
+/* ====== FOOTER PART CSS START ====== */
+
+#foter-part{
+    padding: 100px 0px;
+    background: #131313;
+}
+.foter-heading-row{
+    justify-content: center;
+}
+.touch-info{
+    text-align: center;
+    margin-bottom: 200px;
+}
+.touch-info h4{
+    font-family: 'Syne', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #FF9142;
+    padding-bottom: 30px;
+}
+.touch-info h5{
+    font-family: 'Syne', sans-serif;
+    font-size: 64px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+.foter-info-row{
+    justify-content: center;
+    margin-bottom: 75px;
+}
+.foter-contact-info{
+    justify-content: center;
+}
+.foter-contact-info h3{
+    font-family: 'Syne', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+.foter-contact-info h4{
+    font-family: 'Syne', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+.foter-social-icon{
+
+}
+.foter-social-icon h4{
+    font-family: 'Syne', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+.foter-social-icon a{
+    height: 30px;
+    width: 30px;
+    background: #C4C4C4;
+    color: #131313;
+    line-height: 30px;
+    text-align: center;
+    margin: 0 10px;
+}
+.foter-bottom{
+    border-top: 1px solid #FFF;
+    text-align: center;
+}
+.foter-bottom h4{
+    font-family: 'Syne', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #FFFFFF;
+    padding-top: 35px;
+}
+
+/* ====== FOOTER PART CSS   END ====== */
